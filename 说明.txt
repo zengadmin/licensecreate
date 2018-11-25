@@ -1,0 +1,12 @@
+先使用keytool生成的密钥对文件分别放在服务工程和客户工程下。privateKeys.store和publicCerts.store
+使用说明在keytool生成密钥对.docx文档
+
+
+修改LicenseCreate服务端工程的 param.properties文件的notAfter时间验证等信息
+执行licenseCreateTest方法重新生成bigdata.lic文件
+服务器端生成证书成功!
+
+将生成的bigdata.lic文件拷贝到LicenseVerify工程下供验证使用
+执行licenseVerifyTest验证成功
+客户端安装证书成功!
+客户端验证证书成功!
