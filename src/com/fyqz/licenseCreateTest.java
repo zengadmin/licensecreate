@@ -8,6 +8,7 @@ public class licenseCreateTest {
 		//获取参数
 		cLicense.setParam("./param.properties");
 		//生成证书
+
 		cLicense.create();
 	}
 }
